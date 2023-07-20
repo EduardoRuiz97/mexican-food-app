@@ -1,0 +1,40 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  font-family: var(--font-parag);
+}
+
+.cart h3 {
+  font-weight: 500;
+}
+
+.cart ul {
+  max-height: 250px;
+  overflow-y: scroll;
+  padding-right: 1em;
+}
+
+.cart .btn {
+  padding: 0.8em;
+  font-size: 0.95em;
+  border: 1px solid var(--Vibrant-red);
+  font-weight: 600;
+  color: var(--Vibrant-red);
+  text-transform: uppercase;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.cart .btn:hover {
+  color: white;
+  background-color: var(--Vibrant-red);
+  border: none;
+}
+
+@media only screen and (min-width: 996px) {
+  .cart ul {
+    max-height: 480px;
+  }
+}

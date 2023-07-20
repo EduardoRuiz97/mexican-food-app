@@ -1,0 +1,304 @@
+[
+  {
+    "id" : "m1",
+    "category": "appetizer",
+    "name": "guacamole",
+    "price": 10.99,
+    "description": "Classic and authentic avocado dip with onions, tomatoes, lime and a little bit of chile. Served with tortilla chips.",
+    "image": "https://assets.unileversolutions.com/recipes-v2/93272.jpg",
+    "fillings" : [],
+    "rate": 9.0
+  },
+  {
+    "id" : "m2",
+    "category": "appetizer",
+    "name": "Esquites",
+    "price": 7.99,
+    "description": "Mexican street roasted corn in a cup, with mayonnaise, fetta cheese, Tajin and lime.",
+    "image": "https://partaste.com/worldrecipes/wp-content/uploads/sites/2/2015/08/mexican_esquites_corn_elote_crema_partaste.jpg",
+    "fillings" : [],
+    "rate": 9.1
+  },
+  {
+    "id" : "m3",
+    "category": "appetizer",
+    "name": "Mini Quesadillas",
+    "price": 13.99,
+    "description": "small quesadillas with tasty salsa in the cente",
+    "image": "https://www.vvsupremo.com/wp-content/uploads/2019/12/Black-Bean-Corn-Quesadillas.jpg",
+    "fillings" : [],
+    "rate": 9.0
+  },
+  {
+    "id" : "m4",
+    "category": "appetizer",
+    "name": "Real Mexican Nachos",
+    "price": 25.99,
+    "description": "Real Mexican Nachos! Crunchy handmade chips with frijoles, cheese, tomatoes, onions, sour cream, cilantro and Jalapenos!",
+    "image": "https://www.mercadoflotante.com/blog/wp-content/uploads/2017/08/nachos-supremos-768x512-1.jpg",
+    "fillings" : [],
+    "rate": 9.5
+  },
+  {
+    "id" : "m5",
+    "category": "Tacos guizados",
+    "name": "Taco Tinga de pollo",
+    "price": 3.99,
+    "description": "Corn tortilla served with refried beans and Tinga de Pollo. Tinga de Pollo: tender shredded chicken marinated and cooked with tomatoes, onions and chiles.",
+    "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/7/16/5/tinga-de-pollo-tacos-7130230.jpg.rend.hgtvcom.616.462.suffix/1563298832268.jpeg",
+    "fillings" : [],
+    "rate": 9.3
+  },
+  {
+    "id" : "m6",
+    "category": "Tacos guizados",
+    "name": "Taco de Papa con Chorizo",
+    "price": 3.99,
+    "description": "Corn tortilla served with refried beans and Papa con Chorizo Papa con Chorizo: Spicy sausage cooked with potatoes.",
+    "image": "https://www.gastrolabweb.com/u/fotografias/m/2020/11/11/f608x342-5015_34738_15.jpg",
+    "fillings" : [],
+    "rate": 9.4
+  },
+  {
+    "id" : "m7",
+    "category": "Tacos guizados",
+    "name": "Taco de Pollo con Mole",
+    "price": 3.99,
+    "description": "Corn tortilla served with refried beans and Pollo con Mole. Pollo con Mole: Shredded chicken cooked with a traditional, spicy sauce made from chiles, chocolate and peanuts.",
+    "image": "https://mccormick.widen.net/content/uuedpcq8cw/original/Tacos_de_mole_de_res_Recipes_2000x1125.jpg",
+    "fillings" : [],
+    "rate": 9.2
+  },
+  {
+    "id" : "m8",
+    "category": "Tacos guizados",
+    "name": "Taco de Nopales con Mole",
+    "price": 3.99,
+    "description": "Corn tortilla served with refried beans and Nopales con Mole. Nopales con Mole: Sliced cactus cooked with a traditional, spicy sauce made from chiles, chocolate, and peanuts.",
+    "image": "https://loveveg.mx/app/uploads/2020/08/cropped-2600x2244tacos-de-nopales-en-mole-poblano-scaled-1.jpg",
+    "fillings" : [],
+    "rate": 9.4
+  },
+  {
+    "id" : "m9",
+    "category": "Tacos guizados",
+    "name": "Taco de Nopales",
+    "price": 3.99,
+    "description": "Corn tortilla served with refried beans and Nopales. Nopales: Sliced cactus cooked with onions and chiles (vegan).",
+    "image": "https://storage.googleapis.com/avena-recipes/agtzfmF2ZW5hLWJvdHIZCxIMSW50ZXJjb21Vc2VyGICAkKyViMwKDA/23-06-2022/1656017399666.jpeg",
+    "fillings" : [],
+    "rate": 9.5
+  },
+  {
+    "id" : "m10",
+    "category": "Tacos asados",
+    "name": "Taco de Pastor",
+    "price": 4.99,
+    "description": "Corn tortillas served with Pastor. Pastor; tender pork cutlet marinated in spices, chiles, pineapple, and onions and cooked to perfection on the grill. Served with fresh onions, pineapple slices, and cilantro.",
+    "image": "https://www.culinaryhill.com/wp-content/uploads/2022/12/Tacos-al-Pastor-Culinary-Hill-1200x800-1.jpg",
+    "fillings" : [],
+    "rate": 9.6
+  },
+  {
+    "id" : "m11",
+    "category": "Tacos asados",
+    "name": "Taco de carnitas",
+    "price": 4.99,
+    "description": "Corn tortillas served with Carnitas. Carnitas; juicy, shredded pork shoulder cooked with an assortment of delicious spices. Served with fresh onions and cilantro.",
+    "image": "https://editorialtelevisa.brightspotcdn.com/dims4/default/b17eb10/2147483647/strip/true/crop/995x560+3+0/resize/1000x563!/quality/90/?url=https%3A%2F%2Fk2-prod-editorial-televisa.s3.amazonaws.com%2Fbrightspot%2Fwp-content%2Fuploads%2F2019%2F02%2Ftacos-carnitas-mas-saludables.png",
+    "fillings" : [],
+    "rate": 9.5
+
+  },
+  {
+    "id" : "m12",
+    "category": "Tacos asados",
+    "name": "Taco de Bistec",
+    "price": 4.99,
+    "description": "Corn tortillas served with Bistec. Bistec; tender beef cutlet grilled. Served with fresh onions and cilantro.",
+    "image": "https://www.cocinavital.mx/wp-content/uploads/2020/09/tacos-de-bisteces-encebollados-634x420.jpg",
+    "fillings" : [],
+    "rate": 9.7
+  },
+
+  {
+    "id" : "m13",
+    "category": "More than tacos",
+    "name": "Sopes",
+    "price": 5.99,
+    "description": "Handmade, thick corn tortilla, served with refried beans, lettuce, onions, sour cream, crumbled cheese and your choice of filling:",
+    "image": "https://www.thespruceeats.com/thmb/AVRyUYm6szUBOF13ngE7DhyEYs0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SopesRecipeHERO-8f1580297b974f9c9ea8f031526d61b1.jpg",
+    "fillings" : [
+      "Tinga de pollo",
+      "Papa con chorizo",
+      "Carnitas",
+      "Pastor",
+      "Nopales",
+      "Frijoles fritos",
+      "Pollo con mole"
+    ],
+    "rate": 9.6
+  },
+
+  {
+    "id" : "m14",
+    "category": "More than tacos",
+    "name": "Tostadas",
+    "price": 5.99,
+    "description": "Hard, flat tortilla, served with refried beans, lettuce, sour cream, crumbled cheese and your choice of filling",
+    "image": "https://www.mylatinatable.com/wp-content/uploads/2018/04/Tostadas-4-500x375.jpg",
+    "fillings" : [
+      "Tinga de pollo",
+      "Papa con chorizo",
+      "Carnitas",
+      "Pastor",
+      "Nopales",
+      "Frijoles fritos",
+      "Pollo con mole"
+    ],
+    "rate": 9.5
+  },
+
+  {
+    "id" : "m15",
+    "category": "More than tacos",
+    "name": "Quesadillas",
+    "price": 4.99,
+    "description": "One folded flour tortilla with cheese inside perfectly melted, with your choice of filling.",
+    "image": "https://bakeitwithlove.com/wp-content/uploads/2023/02/fajita-quesadillas-h1.jpg",
+    "fillings" : [
+      "Tinga de pollo",
+      "Papa con chorizo",
+      "Carnitas",
+      "Pastor",
+      "Nopales",
+      "Frijoles fritos",
+      "Pollo con mole"
+    ],
+    "rate": 9.5
+  },
+
+  {
+    "id" : "m16",
+    "category": "More than tacos",
+    "name": "Quesabirria",
+    "price": 5.99,
+    "description": "One folded flour tortilla with cheese inside perfectly melted, with your pulled pork previously marinated in a delicious birria broth",
+    "image": "https://taconmadresmx.com/media/uploads/2022/05/Taco_N_Madres-9820.jpg",
+    "fillings" : [],
+    "rate": 9.7
+  },
+
+
+  {
+    "id" : "m17",
+    "category": "Meals",
+    "name": "Enchiladas verdes",
+    "price": 17.99,
+    "description": "Three tortillas stuffed with Tinga de Pollo (Chicken), cheese or Vegan Papas con Chorizo (Tofu marinated in a spicy salsa and cooked with potatoes); topped with a salsa verde, an irresistible mix of chunky green tomatoes, onions, garlic, cilantro and an assortment of spices and chiles. Served with refried beans and rice on the side. Tooped with sour cream, onions and crumbled cheese",
+    "image": "https://www.comedera.com/wp-content/uploads/2023/05/Enchiladas-verdes-shutterstock_656817880.jpg",
+    "fillings" : ["Cheese", "Papas con Chorizo"],
+    "rate": 9.8
+  },
+
+  {
+    "id" : "m18",
+    "category": "Meals",
+    "name": "Enchiladas Rojas",
+    "price": 17.99,
+    "description": "Three tortillas stuffed with Tinga de Pollo (Chicken), cheese or Vegan Papas con Chorizo (Tofu marinated in a spicy salsa and cooked with potatoes); topped with a salsa roja, an irresistible mix of fresh red tomatoes, onions, garlic, cilantro, and an assortment of spices and chiles. Served with refried beans and rice on the side. Topped with sour cream, onions, and crumbled cheese",
+    "image": "https://www.vvsupremo.com/wp-content/uploads/2016/02/900X570_Red-Enchiladas-Suizas.jpg",
+    "fillings" : ["Cheese", "Papas con Chorizo"],
+    "rate": 9.7
+
+  },
+
+  {
+    "id" : "m19",
+    "category": "Meals",
+    "name": "Gringa",
+    "price": 14.99,
+    "description": "Delicious flour tortilla filled with cheese, pastor meat, pineapple, onion and cilantro. Grilled to perfection.",
+    "image": "https://miltomatesfoods.com/wp-content/uploads/2020/07/IMG_4784-scaled.jpg",
+    "fillings" : [],
+    "rate": 9.7
+  },
+
+  {
+    "id" : "m20",
+    "category": "Meals",
+    "name": "Combo 3 Tacos de Cecina",
+    "price": 19.99,
+    "description": "3 Delicious tacos of cured beef, expertly salted and marinated. Served with cactus, beans and avocado.",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/b1/e9/d8/tacos-de-cecina.jpg",
+    "fillings" : [],
+    "rate": 9.5
+  },
+
+  {
+    "id" : "m21",
+    "category": "Meals",
+    "name": "Pozole",
+    "price": 15.99,
+    "description": "A thick, tasty chicken broth filled with white corn and spices. Served with lettuce, fresh onions, radishes and lime.",
+    "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/BE035512-0E75-41ED-B1C2-EA9A8C6062E8/Derivates/FBEEFA5F-A1B5-47B2-B632-BFD0506D00AA.jpg",
+    "fillings" : [],
+    "rate": 9.8
+  },
+
+  {
+    "id" : "m22",
+    "category": "Desserts",
+    "name": "Churros",
+    "price": 4.99,
+    "description": "Delicious bites fried dough desserts, with a side of chocolate or caramel.",
+    "image": "https://images-gmi-pmc.edge-generalmills.com/2ed6cebd-5d5f-417b-a676-547191a56022.jpg",
+    "fillings" : [],
+    "rate": 9.4
+  },
+
+  {
+    "id" : "m23",
+    "category": "Desserts",
+    "name": "Pastel Tres Leches",
+    "price": 4.99,
+    "description": "Splendid cake prepared with 3 different milks and seasonal fruit.",
+    "image": "https://i.ytimg.com/vi/n0ymEFZJBho/maxresdefault.jpg",
+    "fillings" : [],
+    "rate": 9.3
+  },
+
+  {
+    "id" : "m24",
+    "category": "Extras",
+    "name": "Tortillas",
+    "price": 3.99,
+    "description": "4 tortillas",
+    "image": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg",
+    "fillings" : [],
+    "rate": 9.0
+  },
+
+  {
+    "id" : "m25",
+    "category": "Extras",
+    "name": "Guacamole",
+    "price": 2.99,
+    "description": "Extra Guacamole",
+    "image": "https://i.blogs.es/faf951/guacamole/840_560.jpg",
+    "fillings" : [],
+    "rate": 9.0
+  },
+
+  {
+    "id" : "m26",
+    "category": "Extras",
+    "name": "Rice",
+    "price": 2.99,
+    "description": "Small Side Rice",
+    "image": "https://www.dontsweattherecipe.com/wp-content/uploads/2016/05/mexRice_06.jpg",
+    "fillings" : [],
+    "rate": 9.0
+  }
+]
+

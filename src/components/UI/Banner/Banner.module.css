@@ -1,0 +1,68 @@
+.banner {
+  background-image: url('../../../../public/images/fourth-pattern.png');
+  background-size: 200px;
+  background-position-x: 50%;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.layout {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10%;
+  background-color: rgba(0, 0, 0, 0.113);
+  font-family: var(--font-title);
+}
+
+.layout h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+.layout h4 {
+  font-size: 1.5em;
+}
+
+@media only screen and (min-width: 900px) {
+  .layout {
+    padding: 2.5% 10%;
+  }
+
+  .layout h1 {
+    width: 30%;
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .layout h4 {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .layout h1 {
+    font-size: 4em;
+  }
+
+  .layout h4 {
+    font-size: 2.2em;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+
+  .layout h1 {
+    font-size: 4.3em;
+  }
+
+  .layout h4 {
+    font-size: 2.5em;
+  }
+}

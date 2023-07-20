@@ -1,0 +1,49 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 0.9em;
+  font-family: var(--font-parag);
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(237, 237, 237) ;
+}
+
+.info {
+  display: flex;
+  gap: 2em;
+}
+
+.info img {
+  width: 70px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.info span {
+  font-weight: 500;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+
+.action span {
+  font-size: 0.95em;
+  color: var(--Vibrant-red);
+  font-weight: 600;
+}
+
+.icon {
+  font-size: 1.1em;
+  color: rgb(167, 167, 167);
+  transition: 0.3s;
+}
+
+.icon:hover {
+  color: black;
+}

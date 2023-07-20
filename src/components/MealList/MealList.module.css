@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .list {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .list {
+    width: 70%;
+    margin: auto;
+  }
+}

@@ -1,0 +1,244 @@
+.header {
+  width: 95%;
+  margin: 1em auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.img {
+  width: 80px;
+  height: 80px;
+}
+
+.navbar {
+  position: fixed;
+  width: 70vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2em;
+  transform: translate(110%);
+  transition: 0.3s ease-in-out;
+  background-color: var(--Warm-yellow);
+  color: white;
+  font-family: var(--font-parag);
+  z-index: 100000;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1em;
+  font-weight: 500;
+}
+
+.navbar ul li:hover {
+  color: var(--Text);
+}
+
+.open {
+  transform: translateX(0);
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+
+.options div {
+  position: relative;
+}
+
+.options div span {
+  position: absolute;
+  border-radius: 50%;
+  top: -45%;
+  right: 5%;
+  color: var(--Text);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: var(--Warm-yellow);
+  font-size: 0.85em;
+  font-weight: 800;
+}
+
+.menu {
+  font-size: 2.5em;
+  color: var(--Warm-yellow);
+  transition: 0.3s transform ease-in;
+  cursor: pointer;
+}
+
+.menu:hover {
+  transform: scale(1.1);
+}
+
+.close {
+  font-weight: 800;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em
+}
+
+.actions div {
+  position: relative;
+}
+
+.cart {
+  font-size: 1.75em;
+  transition: 0.3s transform ease-in-out;
+  cursor: pointer;
+  color: var(--Vibrant-red);
+}
+
+.cart:hover,
+.cart:active {
+  transform: scale(1.1);
+}
+
+
+.actions button:hover,
+.actions button:active {
+  opacity: 0.7;
+  background-color: var(--Vibrant-green);
+}
+
+.animation {
+  animation: bump 0.4s ease-in-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.25);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  75% {
+    transform: scale(1.25);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+
+@media only screen and (min-width: 600px) {
+  .header {
+    width: 85%;
+    margin: 1em auto;
+  }
+
+  .navbar {
+    width: 50vw;
+  }
+}
+
+@media only screen and (min-width: 777px) {
+  .header {
+    width: 75%;
+    margin: 1em auto;
+  }
+
+  .navbar {
+    width: 35vw;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+
+  .img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .navbar {
+    position: unset;
+    width: unset;
+    height: unset;
+    padding: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    transform: unset;
+    background-color:unset;
+    color: unset;
+    font-family: var(--font-parag);
+    width: 70%;
+    margin-left: auto;
+  }
+
+  .navbar ul {
+    width: 70%;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: var(--Text);
+  }
+
+  .navbar ul li:hover {
+    opacity: 0.7;
+  }
+
+  .actions {
+    width: 30%;
+  }
+
+
+  .menu {
+    display: none;
+  }
+
+  .close {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .img {
+    width: 140px;
+    height: 140px;
+  }
+}

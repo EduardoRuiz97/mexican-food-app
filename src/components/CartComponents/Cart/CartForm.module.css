@@ -1,0 +1,198 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5em;
+  font-family: var(--font-parag);
+  color: var(--Text);
+}
+
+.field {
+  width: 100%;
+  padding: 1em 0;
+  border-bottom: 1px solid rgb(205, 205, 205);
+}
+
+.field h4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.field h4 span {
+  text-transform: capitalize;
+  font-weight: 400;
+  color: var(--Vibrant-red);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.field h4 span:hover {
+  text-decoration: underline;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 0.7em;
+}
+
+.info span {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+.info span .icon {
+  color: rgb(118, 118, 118);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.tip {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 10px;
+  margin: 0.7em 0;
+}
+
+.tip button {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: rgb(218, 218, 218);
+  color: var(--Text);
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+}
+
+.tip button:last-child {
+  background-color: var(--Vibrant-red);
+  color: white;
+}
+
+.custom {
+  padding: 10px 5px;
+  color: var(--Text);
+  border: 1px solid rgb(224, 224, 224);
+  font-size: 0.75em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+
+.custom label {
+  width: 100%;
+  font-weight: 600;
+}
+
+.custom input {
+  outline: none;
+  padding: 0 2em;
+  color: var(--Text);
+  opacity: 0.8;
+  width: 47%;
+}
+
+.custom button {
+  width: 50%;
+  padding: 5px;
+  background-color: var(--Vibrant-green);
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.custom button:hover {
+  opacity: 0.7;
+}
+
+.tip button span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.tip button span:last-child {
+  font-weight: 400;
+}
+
+.tip button:hover, 
+.tip button:active {
+  opacity: 0.7;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5em;
+}
+
+.total span {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.total p {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+.checkout {
+  width: 100%;
+  padding: 1em;
+  border-radius: 15px;
+  color: white;
+  background-color: var(--Vibrant-red);
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.checkout:hover,
+.checkout:active {
+  opacity: 0.7;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 996px) {
+  .container {
+    width: 100%;
+    margin: unset
+  }
+}

@@ -1,0 +1,82 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1em;
+  margin-left: 2em;
+  margin-right: auto;
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+
+.counter button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(240, 240, 236);
+  font-weight: 500;
+  color: var(--Text);
+  transition: 0.3s;
+  font-size: 1.5em;
+}
+
+.counter button:hover,
+.counter button:active {
+  background-color: var(--Text);
+  color: white;
+}
+
+.counter button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.counter span {
+  font-weight: 500;
+  color: var(--Text);
+  font-size: 1em;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+
+.action span {
+  font-size: 0.95em;
+  color: var(--Vibrant-red);
+  font-weight: 600;
+}
+
+.icon {
+  font-size: 1.1em;
+  color: rgb(167, 167, 167);
+  transition: 0.3s;
+}
+
+.icon:hover {
+  color: black;
+}
