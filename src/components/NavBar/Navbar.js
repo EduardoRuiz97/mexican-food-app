@@ -10,6 +10,7 @@ import Button from "../UI/Button/Button";
 import { cartSliceActions } from "../../store/cart-slice";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
+import { useRouter } from "next/navigation";
 
 const Navbar = () => {
 
@@ -17,6 +18,7 @@ const Navbar = () => {
 
   const [menuIsOpen, setMenuIsOpen] = useState(false);
   const [animation, setAnimation] = useState (false);
+  const router = useRouter();
 
   useEffect(() => {
     if (numberOfItems === 0) {
@@ -48,6 +50,9 @@ const Navbar = () => {
     dispatch(cartSliceActions.openCartBubble())
   }
 
+  const onClickHandler = () => {
+    router.push("/cart");
+  }
   
   return (
     <header className={classes.header} id='start'>
@@ -96,7 +101,14 @@ const Navbar = () => {
 
 
       <div className={classes.options}>
-          <div>
+
+          <div className={classes.mobile}>
+            <ImCart className={classes.cart} onClick={onClickHandler}/>
+            {numberOfItems > 0 && <span className={animation ? classes.animation: ''}>{numberOfItems}</span>}
+          </div>
+
+
+          <div className={classes.desktop}> 
             <ImCart className={classes.cart} onMouseOver={overCartHandler}/>
             {numberOfItems > 0 && <span className={animation ? classes.animation: ''}>{numberOfItems}</span>}
           </div>

@@ -136,6 +136,11 @@
   animation: bump 0.4s ease-in-out;
 }
 
+
+.desktop {
+  display: none;
+}
+
 @keyframes bump {
   0% {
     transform: scale(1);
@@ -225,6 +230,14 @@
   }
 
   .close {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
     display: none;
   }
 }

@@ -15,12 +15,11 @@ const MealsPage = (props) => {
       </Head>
 
       <div style={{overflow:'hidden'}}>
-        <div>Location</div>
+    
         <Banner
         title='Menu & specials'
         slogan= 'Where tradition meets taste'
         />
-        <div>Filter</div>
         <MealList meals={props.meals}/>
       </div>
     </Fragment>
